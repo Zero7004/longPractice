@@ -1,0 +1,28 @@
+//
+//  Main-Prefix.pch
+//  longPractice
+//
+//  Created by forms on 2019/4/18.
+//  Copyright © 2019年 Long. All rights reserved.
+//
+
+#ifndef WeDriver_wd_Prefix_pch
+#define WeDriver_wd_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+/* Inport */
+#import "AppDelegate.h"
+#import <ReactiveCocoa.h>
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "SVProgressHUD.h"
+#import "Macros.h"
+
+#endif
+#endif
+

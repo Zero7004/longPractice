@@ -1,0 +1,95 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - FDFullscreenPopGesture (1.1)
+  - FLAnimatedImage (1.0.12)
+  - IQKeyboardManager (3.3.7)
+  - JSONModel (1.8.0)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.16)
+  - ReactiveCocoa (2.5.2):
+    - ReactiveCocoa/UI (= 2.5.2)
+  - ReactiveCocoa/Core (2.5.2):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5.2)
+  - ReactiveCocoa/UI (2.5.2):
+    - ReactiveCocoa/Core
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - SSKeychain (1.4.1)
+  - SVProgressHUD (2.1.2)
+  - TMCache (2.1.0)
+  - WRNavigationBar (1.2.0)
+
+DEPENDENCIES:
+  - BlocksKit
+  - FDFullscreenPopGesture (~> 1.1)
+  - FLAnimatedImage (~> 1.0)
+  - IQKeyboardManager
+  - JSONModel
+  - Masonry
+  - MJRefresh
+  - ReactiveCocoa (from `https://github.com/zhao0/ReactiveCocoa.git`, tag `2.5.2`)
+  - SDWebImage
+  - SSKeychain
+  - SVProgressHUD
+  - TMCache (~> 2.1.0)
+  - WRNavigationBar (~> 1.2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BlocksKit
+    - FDFullscreenPopGesture
+    - FLAnimatedImage
+    - IQKeyboardManager
+    - JSONModel
+    - Masonry
+    - MJRefresh
+    - SDWebImage
+    - SSKeychain
+    - SVProgressHUD
+    - TMCache
+    - WRNavigationBar
+
+EXTERNAL SOURCES:
+  ReactiveCocoa:
+    :git: https://github.com/zhao0/ReactiveCocoa.git
+    :tag: 2.5.2
+
+CHECKOUT OPTIONS:
+  ReactiveCocoa:
+    :git: https://github.com/zhao0/ReactiveCocoa.git
+    :tag: 2.5.2
+
+SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
+  ReactiveCocoa: 3ff25b1bd992ac79c5c79b26b6c0c1713b715bb2
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
+  WRNavigationBar: dc952230effbb646785f962587caaac06c60f229
+
+PODFILE CHECKSUM: c31f31b7799e2d1dfee5320f0c1af5d739f1e088
+
+COCOAPODS: 1.6.1
