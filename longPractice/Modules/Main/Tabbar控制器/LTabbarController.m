@@ -7,6 +7,12 @@
 //
 
 #import "LTabbarController.h"
+#import "LNavigationController.h"
+#import "LHomeViewController.h"
+#import "LClassifyViewController.h"
+#import "LDiscoverViewController.h"
+#import "LShoppingCartViewController.h"
+#import "LMineViewController.h"
 
 @implementation LTabbarController
 
