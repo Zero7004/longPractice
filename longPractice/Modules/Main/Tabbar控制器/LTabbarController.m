@@ -14,6 +14,13 @@
 #import "LShoppingCartViewController.h"
 #import "LMineViewController.h"
 
+@interface LTabbarController ()
+
+@property (nonatomic, copy) NSString *usestring;
+
+
+@end
+
 @implementation LTabbarController
 
 @end
